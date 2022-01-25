@@ -95,10 +95,20 @@
             margin: 6px 0px;
         }
 
-        .submit button {
+        .submit  {
             border-radius: 0px;
             padding: 0px 110px;
             margin-top: 20px;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: rgb(43, 42, 42);
+            color: white;
+            cursor: pointer;
+        }
+        .submit:hover {
+            background-color: rgb(36, 17, 17);
+            box-shadow: 2px 2px 2px 2px rgb(228, 220, 217);
+           
         }
     </style>
 </head>
@@ -125,28 +135,27 @@
     </header>
     <div class="container">
         <h4>Join the best gym of rewari now</h4>
-        <form action="parveen.php">
+        <form action="mailto:siwachpraveen8855@gmail.com" enctype="text/plain">
             <div class="form">
-                <input type="text" name="" id="" placeholder="Enter your name">
+                <input type="text" name="name:" id="" placeholder="Enter your name">
             </div>
             <div class="form">
-                <input type="text" name="" id="" placeholder="Enter your age">
+                <input type="text" name="age:" id="" placeholder="Enter your age">
             </div>
             <div class="form">
-                <input type="text" name="" id="" placeholder="Enter your gender">
+                <input type="text" name="gender:" id="" placeholder="Enter your gender">
             </div>
-            <div class="form"> <input type="text" placeholder="Enter your locality">
+            <div class="form"> <input type="text" name="locality:" placeholder="Enter your locality">
             </div>
             <div class="form">
-                <input type="text" name="" id="" placeholder="Enter your email">
+                <input type="text" name="email:" id="" placeholder="Enter your email">
 
             </div>
             <div class="form">
-                <input type="text" name="" id="" placeholder="Enter your number">
+                <input type="text" name="number:" id="" placeholder="Enter your number">
             </div>
-            <div class="submit">
-                <button>Submit</button>
-            </div>
+            <input type="Submit" class="submit">
+           
         </form>
 
     </div>
